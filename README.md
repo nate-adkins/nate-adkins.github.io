@@ -1,5 +1,1 @@
-# nate-adkins.github.io
-
-## Robotics 
-
-## Personal
+# [nate-adkins.github.io](https://nate-adkins.github.io/)
