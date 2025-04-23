@@ -35,8 +35,9 @@ repository: "nate-adkins/nate-adkins.github.io"
 # subtitle: Software, Robotics, Reading
 
 # Build settings
-theme: minimal-mistakes-jekyll
-remote_theme: minimal-mistakes-jekyll
+
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.27.0"
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 plugins:
