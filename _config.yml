@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Nathan Adkins"
+title: "The Forest"  # This becomes your site's tab title and browser metadata
 masthead_title: The Forest
 email: nathanpadkins@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
