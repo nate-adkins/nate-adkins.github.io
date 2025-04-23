@@ -1,7 +1,0 @@
----
-layout: single
-title:  "test"
-date:   2025-04-22 23:02:27 -0400
----
-This is the first blog post
-

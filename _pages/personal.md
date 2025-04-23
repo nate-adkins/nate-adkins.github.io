@@ -1,5 +1,6 @@
 ---
 permalink: /personal/
+title: Personal
 layout: home
 ---
 

@@ -18,16 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "The Forest"  # This becomes your site's tab title and browser metadata
-masthead_title: The Forest
+title: "Nathan Adkins"  # This becomes your site's tab title and browser metadata
+masthead_title: " "
 email: nathanpadkins@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a Senior at West Virginia University pursing a degree in Computer Engineering. 
-  I am currently serving as Algorithms Team Lead on the WVU University Rover Challenge Team, 
-  leading software development and robot autonomy development for my third year in a row. 
-  I am highly interested in robotics and software development, 
-  and I am seeking a full time position in those areas.
-  .
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nate-adkins.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "nate-adkins/nate-adkins.github.io"
@@ -43,6 +37,7 @@ minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon"
 plugins:
   # - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -76,8 +71,6 @@ defaults:
       read_time: true
       words_per_minute: 200
       author_profile: true
-
-defaults:
   # _pages
   - scope:
       path: ""
@@ -89,9 +82,8 @@ defaults:
 
 author:
   name: "Nathan Adkins"
-  # avatar: "/assets/images/bio-photo.jpg"
-  bio: "Trained in robotics and software development. 
-    In my free time, I enjoy reading, cooking, and exploring nature through hiking" 
+  avatar: "assets/images/headshot.jpg"
+  bio: "Robotics engineer, novice reader, and amateur hiker."
   location: "United States"
   links:
     - label: "GitHub"

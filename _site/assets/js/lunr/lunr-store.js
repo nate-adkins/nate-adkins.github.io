@@ -1,7 +1,7 @@
 var store = [{
-        "title": "test",
-        "excerpt":"This is the first blog post   ","categories": [],
+        "title": "Why I am starting this website",
+        "excerpt":"This is my first blog post and should consistute the first of many to come. I have decided to start this blog as a way to document my life in one coherent place. My goal is to document personal projects, hobbies, and anything else I may find interesting and worthwhile...","categories": [],
         "tags": [],
-        "url": "/2025/04/22/about-me.html",
+        "url": "/2025/04/23/first-blog-post.html",
         "teaser": null
       }]
