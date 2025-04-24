@@ -4,4 +4,4 @@ title: Personal
 layout: home
 ---
 
-Hobbies, exploring ideas, general blog posts
+Hobbies, exploring ideas, general blog posts.

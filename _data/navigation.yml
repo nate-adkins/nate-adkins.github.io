@@ -3,15 +3,14 @@ main:
   - title: "About Me"
     url: /about/
 
-  - title: "WVU"
-    url: /wvu/
+  - title: "Robotics"
+    url: /robotics/
     
   - title: "Resume"
     url: /resume/
 
   - title: "Personal"
     url: /personal/
-
 
   # - title: "Projects"
   #   url: /projects/

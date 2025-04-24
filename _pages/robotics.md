@@ -1,10 +1,11 @@
 ---
-permalink: /wvu/
-title: West Virginia University
+permalink: /robotics/
+title: Robotics
 ---
-## Freshman Year 
 
 Throughout my time at West Virginia University (WVU) I discovered, among many other things, my interest in robotics.
+
+## Freshman Year
 
 In my freshman year, I was hungry for skills and wanted to become a useful engineer. I attended manufacturing workshops held by my school's maker space that covered various manufacturing and design topics. After an evening at a soldering workshop in February 2022, I rushed back to my dorm to try to fill a to-go box at the dining hall before it closed.
 
@@ -72,7 +73,7 @@ During the autonomy mission, we readied in the basestation, prepared the autonom
 
 ![]({{ site.baseurl }}/assets/images/basestation.jpg)
 
-After completing all of the missions in the competition, our scores were totalled by the judges. We had placed second overall in the competition by a less than a one point difference.
+After completing all of the missions in the competition, our scores were totalled by the judges. We had placed [second overall](https://www.marssociety.org/news/2024/06/02/agh-space-systems-crowned-urc-2024-champion/) in the competition.
 
 ![]({{ site.baseurl }}/assets/images/autonomy.jpg)
 

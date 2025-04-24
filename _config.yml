@@ -84,7 +84,6 @@ author:
   name: "Nathan Adkins"
   avatar: "assets/images/headshot.jpg"
   bio: "Robotics engineer, novice reader, and amateur hiker."
-  location: "United States"
   links:
     - label: "Email"
       icon: "fab fa-fw fa-envelope"
