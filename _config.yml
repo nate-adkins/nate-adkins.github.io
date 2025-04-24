@@ -23,7 +23,7 @@ masthead_title: " "
 email: nathanpadkins@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nate-adkins.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nathanadkins.com" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "nate-adkins/nate-adkins.github.io"
 
 # subtitle: Software, Robotics, Reading
