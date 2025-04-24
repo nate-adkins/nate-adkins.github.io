@@ -9,10 +9,12 @@ main:
   - title: "Resume"
     url: /resume/
 
+  - title: "Personal"
+    url: /personal/
+
+
   # - title: "Projects"
   #   url: /projects/
 
-  # - title: "Personal"
-  #   url: /personal/
 
 
