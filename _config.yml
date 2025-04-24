@@ -59,7 +59,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-search: true
+# search: true
 
 defaults:
   # _posts
@@ -86,6 +86,9 @@ author:
   bio: "Robotics engineer, novice reader, and amateur hiker."
   location: "United States"
   links:
+    - label: "Email"
+      icon: "fab fa-fw fa-envelope"
+      url: "mailto:nathanpadkins@gmail.com"  
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/nate-adkins"

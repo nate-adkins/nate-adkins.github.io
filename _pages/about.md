@@ -3,7 +3,7 @@ permalink: /about/
 title: About Me
 ---
 
-I am a novice reader, a robotics engineer, and an aspirational lifelong learner.
+I am a robotics engineer, a novice reader, an amateur hiker, and an aspirational lifelong learner.
 
 ![]({{ site.baseurl }}/assets/images/iros.jpg)
 

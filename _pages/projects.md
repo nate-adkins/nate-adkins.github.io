@@ -1,6 +1,6 @@
----
+<!-- ---
 permalink: /projects/
 title: Projects
 ---
 
-Personal projects
+Personal projects -->
