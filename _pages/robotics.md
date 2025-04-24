@@ -15,7 +15,7 @@ Illuminated in the wide campus sidewalks was a lone robot. Intrigued, I stopped 
 
 The next day, I joined the WVU University Rover Challenge (URC) Team as a volunteer programmer and started attending meetings and coding sessions. With no prior experience in robotics, and no experience developing software on a team, I was initially intimidated. 
 
-The team and team advisor, [Dr. Yu Gu](https://directory.statler.wvu.edu/faculty-staff-directory/yu-gu), utilize a trial by fire approach where exploration is encouraged and failure is an expected and treasured obligation. This is an approach that I continue to appreciate.
+The team and team advisor, [Dr. Yu Gu](https://directory.statler.wvu.edu/faculty-staff-directory/yu-gu), utilize a trial by fire approach where exploration is encouraged and failure is an expected and treasured obligation. This is an approach that I continue to appreciate today.
 
 ![]({{ site.baseurl }}/assets/images/urc_group_photo.jpg)
 
@@ -25,7 +25,7 @@ After working with experienced programmers, debugging failed iterations, and pou
 
 ![]({{ site.baseurl }}/assets/images/loopy.png)
 
-In May of 2022, I started conducting research on [swarm robotics](https://en.wikipedia.org/wiki/swarm_robotics) for Dr. Gu at the WVU [Interactive Robotics Laboratory](https://web.archive.org/web/20250423170205/https://yugu.faculty.wvu.edu/people). The research surrounded a robot named Loopy. Loopy consists of a closed chain of many servo motors acting as independent agents that have only a single degree of freedom. 
+In May of 2022, I started conducting research on [swarm robotics](https://en.wikipedia.org/wiki/swarm_robotics) under Dr. Gu at the WVU Interactive Robotics Laboratory. The research surrounded a robot named Loopy. Loopy consists of a closed chain of many servo motors acting as independent agents that have only a single degree of freedom. 
 
 The preliminary research was focused on consensus methods in swarm robotics and how they can be applied alongside human interaction with Loopy to perform decentralized shape creation.
 
@@ -35,7 +35,7 @@ The preliminary research was focused on consensus methods in swarm robotics and 
 
 Throughout my sophomore year, myself and graduate students in the lab continued exploring various swarm robotics concepts including how [turing patterns](https://en.wikipedia.org/wiki/Turing_pattern) can enable loopy to morph or undergo transformation. 
 
-I continued volunteering and started as the programming lead for the WVU URC team. In this role I helped lead 20 programmers in designing and testing an autonomy system, achieving a [first place victory](https://www.marssociety.org/news/2023/06/05/team-mountaineers-crowned-urc2023-champion/) in the 2023 competition.
+I continued volunteering and started as the programming lead for the WVU URC Team. In this role I helped lead 20 programmers in designing and testing an autonomy system, achieving a [first place victory](https://www.marssociety.org/news/2023/06/05/team-mountaineers-crowned-urc2023-champion/) in the 2023 competition.
 
 ![]({{ site.baseurl }}/assets/images/mock_competition.jpg)
 
@@ -73,7 +73,7 @@ During the autonomy mission, we readied in the basestation, prepared the autonom
 
 ![]({{ site.baseurl }}/assets/images/basestation.jpg)
 
-After completing all of the missions in the competition, our scores were totalled by the judges. We had placed [second overall](https://www.marssociety.org/news/2024/06/02/agh-space-systems-crowned-urc-2024-champion/) in the competition.
+After completing all of the missions in the competition, our scores were totalled by the judges. We had [placed second](https://www.marssociety.org/news/2024/06/02/agh-space-systems-crowned-urc-2024-champion/) overall in the competition.
 
 ![]({{ site.baseurl }}/assets/images/autonomy.jpg)
 
