@@ -22,6 +22,7 @@ title: "Nathan Adkins"  # This becomes your site's tab title and browser metadat
 masthead_title: " "
 email: nathanpadkins@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
+  Nathan Adkins is a robotics engineer and Computer Engineering student at WVU with hands-on experience in robot autonomy, swarm robotics, and leading competitive rover teams. Explore his projects and research in robotics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nathanadkins.com" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "nate-adkins/nate-adkins.github.io"
