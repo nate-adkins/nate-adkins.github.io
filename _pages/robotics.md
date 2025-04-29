@@ -51,7 +51,7 @@ In my third year being on the WVU URC Team, I established the algorithms subteam
 
 ![]({{ site.baseurl }}/assets/images/rock_garden.jpg)
 
-Once the new 2024 URC rules were released in September 2023, our team started developing our competition robot. We finalized designs, ordered parts, and tested new sensors, path planning algorithms, and autonomy systems on robots from previous years. During this time, we also held outreach events to engage new students interested in joining the team.
+Once the new 2024 URC rules were released in September 2023, our team started developing our new competition robot. We finalized designs, ordered parts, and tested new sensors, path planning algorithms, and autonomy systems on robots from previous years. During this time, we also held outreach events to engage new students interested in joining the team.
 
 ![]({{ site.baseurl }}/assets/images/outreach.jpg)
 
