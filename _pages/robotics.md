@@ -35,7 +35,7 @@ The focus of the preliminary research was on consensus methods in swarm robotics
 
 During my sophomore year, the lab's graduate students and I continued researching various swarm robotics concepts including how [turing patterns](https://en.wikipedia.org/wiki/Turing_pattern) can enable Loopy to morph or undergo transformation. 
 
-In our research on swarm robotics, we applied reaction-diffusion models to a robotic system which showed the potential for bio-inspired approaches that are able to generate adaptable and dynamic morphologies in robot swarms. As a result of this research, I co-authored an [IROS-2023 paper](https://doi.org/10.48550/arXiv.2306.12629) on swarm robotics and robotic morphogenesis.
+In our research on swarm robotics, we applied reaction-diffusion models to Loopy, showing the potential for biologically inspired approaches capable of generating adaptable and dynamic morphologies in robot swarms. As a result of this research, I co-authored an [IROS 2023 paper](https://doi.org/10.48550/arXiv.2306.12629).
 
 I continued volunteering with the WVU URC Team and began as the Programming Lead in August 2022. In this position, I trained over 20 new programmers on software libraries and tools, while also leading the design, development, and testing of our robot’s autonomy system. Our efforts culminated in a [first-place victory](https://www.marssociety.org/news/2023/06/05/team-mountaineers-crowned-urc2023-champion/) at the 2023 competition, marking a step forward for the myself and the team.
 
