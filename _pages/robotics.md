@@ -23,7 +23,7 @@ Slowly, I was able to build up a modest collection of small programs utilizing t
 
 After working with experienced programmers, debugging failed iterations, and pouring over massive amounts of forum posts and documentation, the system finally worked. This experience strengthened my interest in robotics, and my appreciation for reading documentation. I was invigorated and wanted to learn more.
 
-In May 2022, I started conducting research on [swarm robotics](https://en.wikipedia.org/wiki/swarm_robotics) under the guidance of Dr. Gu at the WVU Interactive Robotics Laboratory. Our research centered around a robot named Loopy, which consists of a closed chain of servo motors that function as independent agents, each with a single degree of freedom.
+In May 2022, I started conducting research on [swarm robotics](https://en.wikipedia.org/wiki/swarm_robotics) under the guidance of Dr. Gu at the WVU Interactive Robotics Laboratory. Our research centered around a robot named Loopy, which consisted of a closed chain of servo motors that function as independent agents, each with a single degree of freedom.
 
 ![]({{ site.baseurl }}/assets/images/loopy.png)
 
