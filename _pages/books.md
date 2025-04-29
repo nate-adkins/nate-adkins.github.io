@@ -3,7 +3,7 @@ permalink: /books/
 title: Books
 ---
 
-Books I recommend.
+Noteworthy books I recommend.
 
 <iframe frameborder="0" width="165" height="400" src="//openlibrary.org/works/OL20758206W/Entangled_Life/widget"></iframe>
 
