@@ -47,7 +47,7 @@ Starting in May 2023, I continued working at the Interactive Robotics Laboratory
 
 ## Junior Year
 
-In my third year being on the WVU URC Team, I established the algorithms subteam to provide members who are interested in robotics the opportunity to explore specific topics in greater depth. The subteam focused on integrating cutting-edge robotics algorithms and concepts onto our robot, ensuring that its capabilities kept pace with advancements in industry and academia.
+In my third year being on the WVU URC Team, I established the algorithms subteam to provide members interested in robotics the opportunity to explore specific topics in greater depth. The subteam focused on integrating cutting-edge robotics algorithms and concepts onto our robot, ensuring that its capabilities kept pace with advancements in industry and academia.
 
 ![]({{ site.baseurl }}/assets/images/rock_garden.jpg)
 
