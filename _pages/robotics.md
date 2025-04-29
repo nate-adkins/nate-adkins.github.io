@@ -71,7 +71,7 @@ In May of 2024, during our week of travel and competition, our team spent evenin
 
 ![]({{ site.baseurl }}/assets/images/utah_testing.jpg)
 
-During the autonomy mission, we set up in the basestation, started our robot's autonomy system, and observed its performance. Ultimately, we placed second in the mission, with our robot successfully navigating the rocky, unforgiving terrain to reach the mission goals.
+During the autonomy mission, we set up in the basestation, started our robot's autonomy system, and observed its performance. Ultimately, we placed second in the mission, with our robot successfully navigating the rocky and unforgiving terrain to reach the mission goals.
 
 ![]({{ site.baseurl }}/assets/images/basestation.jpg)
 
