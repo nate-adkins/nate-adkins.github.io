@@ -41,7 +41,7 @@ I continued volunteering with the WVU URC Team and began as the Programming Lead
 
 ![]({{ site.baseurl }}/assets/images/mock_competition.jpg)
 
-Starting in May 2023, I continued working at the Interactive Robotics Laboratory. This new research was focused on developing methods for generating a real-time safety map of retail spaces with a ground-based robot. Utilizing lidar, inertial sensors, and onboard cameras, the goal of the robot was to map hazardous conditions in retail spaces that humans may encounter. This research included collaboration with the University of Florida and funding from the National Science Foundation.
+Starting in May 2023, I started work on a new project at the Interactive Robotics Laboratory. This new research was focused on developing methods for generating a real-time safety map of retail spaces with a ground-based robot. Utilizing lidar, inertial sensors, and onboard cameras, the goal of the robot was to map hazardous conditions in retail spaces that humans may encounter. This research included collaboration with the University of Florida and funding from the National Science Foundation.
 
 ![]({{ site.baseurl }}/assets/images/irl_group_photo.jpg)
 
