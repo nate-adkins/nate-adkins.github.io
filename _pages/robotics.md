@@ -79,7 +79,7 @@ After completing all of the missions in the competition, our scores were totalle
 
 ![]({{ site.baseurl }}/assets/images/autonomy.jpg)
 
-Looking back on the months of preparation and the countless hours spent debugging, improving, and testing, I realized how much I had grown as both a leader and a roboticist. Each problem I faced helped me build not only technical skills but also the ability to guide a team through complex problems. Placing second in the competition was a testament to all the hard work, and I was incredibly proud of what our team and myself accomplished. As I moved into my senior year, I was eager to build on my technical insights, my leadership skills, and on the continued success of our team.
+Looking back on the months of preparation and the countless hours spent debugging, improving, and testing, I realized how much I had grown as both a leader and a roboticist. Each problem I faced helped me build not only my technical skills but also my ability to guide a team through complex problems. Placing second in the competition was a testament to all the hard work, and I was incredibly proud of what our team and myself accomplished. As I moved into my senior year, I was eager to build on my technical insights, my leadership skills, and on the continued success of our team.
 
 ![]({{ site.baseurl }}/assets/images/competition_group_photo.jpg)
 
