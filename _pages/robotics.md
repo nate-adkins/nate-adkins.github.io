@@ -15,7 +15,7 @@ Walking to the dorms, I spotted a robot on the campus sidewalks and was immediat
 
 The next day, I joined the WVU University Rover Challenge (URC) Team as a programmer. I started attending meetings and coding sessions, eager to dive into the world of robotics. With no prior experience in robotics or software development in a team setting, I was initially intimidated. 
 
-Our team and team advisor, [Dr. Yu Gu](https://directory.statler.wvu.edu/faculty-staff-directory/yu-gu), embrace a trial-by-fire approach where exploration is encouraged and failure is an expected and treasured obligation. This is a philosophy that I continue to appreciate today.
+Our team advisor, [Dr. Yu Gu](https://directory.statler.wvu.edu/faculty-staff-directory/yu-gu), embraces a trial-by-fire approach on the team where exploration is encouraged and failure is an expected and treasured obligation. This is a philosophy that I continue to appreciate today.
 
 ![]({{ site.baseurl }}/assets/images/urc_group_photo.jpg)
 
