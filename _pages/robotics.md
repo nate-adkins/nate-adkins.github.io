@@ -67,7 +67,7 @@ After months of integration and testing, our team submitted our system acceptanc
 
 <!-- ![]({{ site.baseurl }}/assets/images/cliff_face.jpg) -->
 
-In May of 2024, during our week of travel and competition, our team spent evenings preparing for missions, practicing setup procedures, and testing failure recovery plans.
+In May of 2024, during our week of travel and competition, our team spent evenings preparing for missions. We practiced setup procedures and failure recovery plans.
 
 ![]({{ site.baseurl }}/assets/images/utah_testing.jpg)
 
