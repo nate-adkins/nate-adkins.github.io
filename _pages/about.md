@@ -7,4 +7,6 @@ I am a robotics engineer, a novice reader, an amateur hiker, and an aspirational
 
 ![]({{ site.baseurl }}/assets/images/colorado.jpg)
 
-I am a Senior at West Virginia University (WVU) pursing a degree in Computer Engineering. I am currently serving as Algorithms Team Lead on the WVU University Rover Challenge Team, leading software development and robot autonomy development for my third year in a row. I am highly interested in robotics and software development, and I am seeking a full time position in those areas.
+Currently, I am a Senior at West Virginia University (WVU) pursuing a degree in Computer Engineering. I serve as the Algorithms Team Lead for the WVU University Rover Challenge Team (URC), where I have led software development and robot autonomy efforts for three consecutive years. I am passionate about robotics and software development and am actively seeking a full-time position in these fields.
+
+My experience in robotics includes research in swarm robotics, integrating mapping and autonomy systems on both indoor and outdoor ground-based robots, developing resiliant robot autonomy systems, and winning consecutive international robotics competitions.

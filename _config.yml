@@ -87,7 +87,7 @@ author:
   bio: "Robotics engineer, novice reader, and amateur hiker."
   links:
     - label: "Email"
-      icon: "fab fa-fw fa-envelope"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:nathanpadkins@gmail.com"  
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
