@@ -3,8 +3,8 @@ main:
   - title: "About Me"
     url: /about/
 
-  - title: "Robotics"
-    url: /robotics/
+  - title: "WVU"
+    url: /wvu/
     
   - title: "Resume"
     url: /resume/

@@ -1,6 +1,6 @@
 ---
-permalink: /robotics/
-title: Robotics
+permalink: /wvu/
+title: WVU
 ---
 
 Throughout my time at West Virginia University (WVU) working on hands-on projects, and conducting research, I discovered and developed a strong interest in robotics.
