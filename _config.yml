@@ -22,7 +22,7 @@ title: "Nathan Adkins"  # This becomes your site's tab title and browser metadat
 masthead_title: " "
 email: nathanpadkins@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Nathan Adkins is a robotics engineer and Computer Engineering student at WVU with hands-on experience in robot autonomy, swarm robotics, and leading competitive rover teams. Explore his projects and research in robotics.
+  Nathan Adkins is a robotics engineer and Computer Engineering student at WVU with hands-on experience in robot autonomy, swarm robotics, and leading competitive rover teams. Explore his projects and robotics research.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nathanadkins.com" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "nate-adkins/nate-adkins.github.io"
@@ -62,6 +62,12 @@ plugins:
 
 # search: true
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-NL17V9WFNL"
+    anonymize_ip: false # default
+
 defaults:
   # _posts
   - scope:
@@ -69,9 +75,9 @@ defaults:
       type: posts
     values:
       show_date: true
-      read_time: true
-      words_per_minute: 200
-      author_profile: true
+      # read_time: true
+      # words_per_minute: 200
+      # author_profile: true
   # _pages
   - scope:
       path: ""
@@ -79,7 +85,20 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      # share: true
 
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 author:
   name: "Nathan Adkins"
@@ -97,3 +116,4 @@ author:
       url: "https://www.linkedin.com/in/nathan-adkins/"
 
 include: ["_pages"]
+

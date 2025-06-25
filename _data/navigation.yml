@@ -3,17 +3,19 @@ main:
   - title: "About Me"
     url: /about/
 
-  - title: "WVU"
-    url: /wvu/
+  - title: "Projects"
+    url: /projects/
+
+  # - title: "WVU"
+  #   url: /wvu/
     
   - title: "Resume"
     url: /resume/
 
-  # - title: "Personal"
-  #   url: /personal/
-
-  - title: "Books"
-    url: /books/
+  - title: "Thanks"
+    url: /thanks/
+  # - title: "Books"
+  #   url: /books/
 
 
 
