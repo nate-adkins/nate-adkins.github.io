@@ -6,16 +6,5 @@ main:
   - title: "Projects"
     url: /projects/
 
-  # - title: "WVU"
-  #   url: /wvu/
-    
-  - title: "Resume"
-    url: /resume/
-
   - title: "Thanks"
     url: /thanks/
-  # - title: "Books"
-  #   url: /books/
-
-
-
