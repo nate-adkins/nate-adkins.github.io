@@ -68,7 +68,7 @@ The goal of the delivery mission is to transport various objects in the environm
 
 The goal of the servicing mission is to utilize a manipulator to perform dextrous tasks such as using a joystick, opening drawers and placing objects in them, plugging in a USB drive, and typing on a keyboard. This mission is a test of the dexterity of the rover's manipulator.
 
-### My Work in URC
+### My Work on the Team
 
 {% include gallery id="my_roles"%}
 
