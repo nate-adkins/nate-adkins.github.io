@@ -33,9 +33,9 @@ toc_icon: "none"
 
 ## Meet Retailbot
 
-Retailbot is an indoor research robot focused on creating real-time human safety maps. Retailbot is equipped with a velodyne VLP-16 lidar, an Intel Realsense D455 depth camera, and a ZED 2i stereo camera.
+Retailbot is an indoor research robot focused on creating real-time human safety maps. Retailbot is equipped with a velodyne VLP-16 LiDAR, an Intel Realsense D455 depth camera, and a ZED 2i stereo camera.
 
-Utilizing onboard depth cameras, imu, and motor feedback data, retailbot aims 
+Utilizing onboard depth cameras, IMU, and motor feedback data, retailbot aims 
 to create a real-time walkability map of retail environments. 
 
 {% include gallery id="hardware_gallery"%}
@@ -47,7 +47,7 @@ My work on Retailbot included creating a Python library for interfacing with the
 
 {% include gallery id="software_gallery"%}
 
-To create maps of the environment with Retailbot, the onboard Lidar and IMU were used alongside [slam toolbox](https://github.com/SteveMacenski/slam_toolbox). For autonomous navigation, [Nav2](https://docs.nav2.org/index.html) was utilized for its extensive feature set, configurability, and plugin support.
+To create maps of the environment with Retailbot, the onboard LiDAR and IMU were used alongside [slam toolbox](https://github.com/SteveMacenski/slam_toolbox). For autonomous navigation, [Nav2](https://docs.nav2.org/index.html) was utilized for its extensive feature set, configurability, and plugin support.
 
 - Ubuntu Linux and ROS2
 - Integrated LiDAR, IMU, and SLAM system on the robot
