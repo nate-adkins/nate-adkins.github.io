@@ -100,7 +100,7 @@ The [pyactuator](https://github.com/nate-adkins/pyactuator) library was created 
 
 Our rover utilized brushless MyActuator motors for the 4 drivebase motors, and 5 degrees of freedom of the rover's custom robotic manipulator.
 
-Through my experience transitioning our URC team from ROS to ROS2 and my experience working with ROS2 on [Retailbot](/projects/retailbot), I recognized the value in decoupling our hardware libraries and drivers from ROS. Libraries developed for previous devices used by our team relied on different versions of ROS and would create technical debt in transitional periods. Foreseeing similar issues in the future, I created this library completed decoupled from ROS allowing for continued use through future ROS editions.
+Through my experience transitioning our URC team from ROS to ROS2 and my experience working with ROS2 on [Retailbot](/projects/retailbot), I recognized the value in decoupling our hardware libraries and drivers from ROS. Libraries developed for previous devices used by our team relied on different versions of ROS and would create technical debt in transitional periods. Foreseeing similar issues in the future, I created this library completely decoupled from ROS allowing for continued use through future ROS editions.
 
 ### Autonomy System
 
@@ -119,7 +119,7 @@ For the local planner, a collection of ROS packages in the [CMU Exploration](htt
 
 {% include gallery id="slam"%}
 
-Testing of the autonomy system included integrating and tested multiple LiDARs such as the Livox Mid-360 and the Unitree L1, integrating and testing SLAM implementations such as [FAST-LIO](https://github.com/hku-mars/FAST_LIO), and tuning the local planner performance, finding an optimal balance between intrepidity and reliability.
+Testing of the autonomy system included integrating and testing multiple LiDARs such as the Livox Mid-360 and the Unitree L1, integrating and testing SLAM implementations such as [FAST-LIO](https://github.com/hku-mars/FAST_LIO), and tuning the local planner performance, finding an optimal balance between intrepidity and reliability.
 
 ### Custom YOLO Model
 
