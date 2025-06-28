@@ -10,7 +10,7 @@ toc_sticky: true
 toc_label: "Table of Contents"
 toc_icon: "none"
 
-gallery:
+missions:
 
   - url: /assets/images/urc/missions/daedalus.jpg
     image_path: /assets/images/urc/missions/daedalus.jpg
@@ -40,60 +40,107 @@ my_roles:
 
   - url: /assets/images/urc/my_roles/debugging.jpg
     image_path: /assets/images/urc/my_roles/debugging.jpg
+
+autonomy_stack:
+
+  - url: /assets/images/urc/autonomy/stack.png
+    image_path: /assets/images/urc/autonomy/stack.png
+
+autonomy_mission:
+
+  - url: /assets/images/urc/autonomy/slopes.png
+    image_path: /assets/images/urc/autonomy/slopes.png
+
+slam:
+
+  - url: /assets/images/urc/autonomy/evansdale.png
+    image_path: /assets/images/urc/autonomy/evansdale.png
 ---
 
-### What is URC?
+## What is URC?
 
-The University Rover Challenge (URC) is an international robotics competition for college students held in Hanksville, Utah at the Mars Desert Research Station (MDRS) each year.
+The University Rover Challenge (URC) is an international robotics competition for college students held in Hanksville, Utah at the Mars Desert Research Station each year.
 
-URC consists of 3 phases that loosely follow NASA's project lifecycle. The Preliminary Design Review (PDR), the System Acceptance Review (SAR), and the Field Competition in Utah.
+URC consists of 3 phases that loosely follow NASA's project lifecycle: The Preliminary Design Review, the System Acceptance Review, and the Field Competition in Utah.
 
-Unlike other URC teams, our team took a unique approach of creating entirely new designs for our drivebase, science payload, robotic manipulator, robot autonomy systems, and other subsystems each year. This approach allowed for maximum design exploration, refinement, and system knowledge for team members.
+Unlike other URC teams, our team took a unique approach to the competition, creating entirely new designs for our drivebase, science payload, robotic manipulator, robot autonomy systems, and other subsystems each year. This approach allowed for maximum design exploration, refinement, and system knowledge for team members. 
 
-{% include gallery id="gallery"%}
+Rather than CAD and code being transferred between generations of team members, design principles, lessons, and institutional knowledge were transferred instead.
 
-#### Autonomy Mission
+{% include gallery id="missions"%}
 
-The goal of the autonomy mission is to travel between GNSS locations, search and locate ArUco markers, and search and locate objects of interest in the environment. This mission is a test of a team's path planning system, computer vision models, and autonomy system design.
+### Autonomy Mission
 
-#### Science Mission
+The goal of the autonomy mission is for a team's rover to autonomously travel between GNSS locations, search and locate ArUco markers, and search and locate objects of interest in the environment. This mission is a test of a team's path planning system, computer vision models, and autonomy system design.
+
+### Science Mission
 
 The goal of the science mission is to collect soil from a selected area, perform analysis with instruments on the rover, and make conclusions about the past and present geology of the area, the suitability of the area for sustaining life, whether life existed previously, currently, or never. 
 
-#### Delivery Mission
+### Delivery Mission
 
 The goal of the delivery mission is to transport various objects in the environment across large distances. The mission includes searching for objects in the environment, gathering widely scattered objects, and opening toolboxes. This mission is a test of the resilience of the rover's communication system, and the rover's manipulator.    
 
-#### Servicing Mission
+### Servicing Mission
 
 The goal of the servicing mission is to utilize a manipulator to perform dextrous tasks such as using a joystick, opening drawers and placing objects in them, plugging in a USB drive, and typing on a keyboard. This mission is a test of the dexterity of the rover's manipulator.
 
-### My Work on the Team
+## Leadership Roles
 
 {% include gallery id="my_roles"%}
 
+### Progamming Lead
 
-#### My Roles
-My freshman year, I started on the team as a programmer. My sophomore year, I was selected as Programming Lead for the team, leading over 20 programmers across each rover subsystem. Identifying a need for more academic-focused work on the team, I founded the Algorithms group. The Algorithms group was created to allow more students to have a focus on robotics algorithms including SLAM, computer vision, state estimation, path planning, and autonomous navigation systems.
+My freshman year, I started on the URC team as a programmer where I gained initial experience with Linux and ROS. My sophomore year, I was selected as Programming Lead for the team, training and guiding over 20 programmers across each rover subsystem. 
 
-#### CAN and UART Motor Library
+During this period, I led the team's transition from ROS Noetic to ROS Humble. This transition included a refactoring of all of our actively used internal libraries such as [motor libraries](/projects/urc/#can-and-uart-motor-library), camera wrappers, and our communication system.
+
+### Algorithms Lead
+
+Identifying a need for more academic-focused work on the team, I founded the Algorithms group my Junior year and continued leading the group through my senior year at WVU. The Algorithms group was created to allow students to focus on robotics algorithms including state estimation, path planning, autonomy systems, SLAM, and computer vision.
+
+During this time, I led the testing and integration of multiple generations of sensor suites including IMUs and LiDARs, borrowing from my experience from the [Retailbot](/projects/retailbot) project. Additionally, I was responsible for the design and testing of our [autonomy system](/projects/urc/#autonomy-system) including integrating SLAM implementations and [computer vision models](/projects/urc/#custom-yolo-model) on the rover.
+
+## Projects
+
+### CAN and UART Motor Library
+
+The [pyactuator](https://github.com/nate-adkins/pyactuator) library was created to modularly interface with Myactuator brushless motors in Python over both CAN and UART interfaces.
+
+Our rover utilized brushless [MyActuator](https://www.myactuator.com/) motors for the 4 drivebase motors, and 5 degrees of freedom of the rover's custom robotic manipulator.
+
+Through my experience transitioning our URC team from ROS to ROS2 and my experience working with ROS2 on [Retailbot](/projects/retailbot), I recognized the value in decoupling our hardware libraries and drivers from ROS. Libraries developed for previous devices used by our team relied on different versions of ROS and would create technical debt in transitional periods. Foreseeing similar issues in the future, I created this library completed decoupled from ROS allowing for continued use through future ROS editions.
+
+### Autonomy System
+
+{% include gallery id="autonomy_stack"%}
+
+
+During my time as the Algorithms lead on the URC team, I focused on utilizing LiDAR and SLAM systems to mature and develop a previously underdeveloped autonomous navigation system on our rover.
+
+Our navigation system consisted of a global and SLAM-based local planning system. The global planning system utilized height map data from the [OpenTopography](https://opentopography.org/) project to create a slope map of the competition area in Utah. 
+
+{% include gallery id="autonomy_mission"%}
+
+The slope map served as a low-resolution cost map on which graph-based algorithms such as PRM, RRT*, or others would run. These algorithms created naive intermediary paths to and from goal points. To traverse to and from points in the global paths, a local planner was used.  
+
+For the local planner, a collection of ROS packages in the [CMU Exploration](https://www.cmu-exploration.com/) project were selected for their customizability, terrain analysis components, and overall simplicity. This local planning system used a motion-primitive-based approach, projecting pre-computed motion primitives into the mapped environment, checking for collisions. The local planner also utilized a terrain analysis component to identify and map the ground in the environment with a RANSAC-based approach.
+
+{% include gallery id="slam"%}
+
+Testing of the autonomy system included integrating and tested multiple LiDARs such as the [Livox Mid-360](https://www.livoxtech.com/mid-360) and the [Unitree L1](https://shop.unitree.com/products/unitree-4d-lidar-l1), integrating and testing SLAM implementations such as [FAST-LIO](https://github.com/hku-mars/FAST_LIO), and tuning the local planner performance, finding an optimal balance between intrepidity and reliability.
+
+### Custom YOLO Model
 
 *updating soon*
 
-#### Navigation and Mapping System
+### React-based Rover GUI
 
 *updating soon*
 
-#### Custom YOLO Model
+## Successes
 
-*updating soon*
-
-#### React-based Rover GUI
-
-*updating soon*
-
-### Successes
-- URC 2023 - First Place
 - URC 2024 - Second Place
-- URC 2025 - Second Place
+- URC 2023 - First Place
+
 
