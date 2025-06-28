@@ -56,8 +56,6 @@ URC consists of 3 phases that loosely follow NASA's project lifecycle: The Preli
 
 Unlike other URC teams, our team took a unique approach to the competition, creating and fabricating entirely new designs for our drivebase, science payload, robotic manipulator, robot autonomy systems, and other subsystems each year. This approach allowed for maximum design exploration, refinement, and system knowledge for team members. 
 
-Rather than CAD and code being transferred between generations of team members, design principles, lessons, and institutional knowledge were transferred instead.
-
 {% include gallery id="missions"%}
 
 ### Autonomy Mission
@@ -66,7 +64,7 @@ The goal of the autonomy mission is for a team's rover to autonomously travel be
 
 ### Science Mission
 
-The goal of the science mission is to collect soil from a selected area, perform analysis with instruments on the rover, and make conclusions about the past and present geology of the area, the suitability of the area for sustaining life, whether life existed previously, currently, or never. 
+The goal of the science mission is to collect soil from a selected area, perform analysis with instruments on the rover, and make conclusions about the past and present geology of the area, the suitability of the area for sustaining life, and whether life existed previously, currently, or never. 
 
 ### Delivery Mission
 
@@ -84,30 +82,27 @@ The goal of the servicing mission is to utilize a manipulator to perform dextrou
 
 My freshman year, I started on the URC team as a programmer where I gained initial experience with Linux and ROS. My sophomore year, I was selected as Programming Lead for the team, training and guiding over 20 programmers across each rover subsystem. 
 
-During this period, I led the team's transition from ROS (Noetic) to ROS2 (Humble). This transition included a refactoring of all of our actively used internal libraries such as motor libraries, camera wrappers, and our communication system.
+During this period, I led the team's transition from ROS (Noetic) to ROS2 (Humble). This transition included a refactoring of all of our actively used internal libraries for devices like motors, cameras, and our communication system.
 
 ### Algorithms Lead
 
-Identifying a need for more academic-focused work on the team, I founded the Algorithms group my Junior year and continued leading the group through my senior year at WVU. The Algorithms group was created to allow students to focus on robotics algorithms including state estimation, path planning, autonomy systems, SLAM, and computer vision.
+Identifying the need for our rover to match the capabilities found at the edge of robotics research, I founded the Algorithms group my Junior year and continued leading the group through my senior year. The Algorithms group was created to allow students on the team to focus on robotics algorithms including state estimation, path planning, autonomy systems, SLAM, and computer vision.
 
-During this time, I led the testing and integration of multiple generations of sensor suites including IMUs and LiDARs, borrowing from my experience from the [Retailbot](/projects/retailbot) project. Additionally, I was responsible for the design and testing of our autonomy system including integrating SLAM implementations and computer vision models on the rover.
+During this time, I led the testing and integration of multiple generations of sensor suites including IMUs and LiDARs, drawing on my experience from the [Retailbot](/projects/retailbot) project. Additionally, I was responsible for the design and testing of our autonomy system including integrating SLAM implementations and computer vision models on the rover.
 
 ## Projects
 
 ### CAN and UART Motor Library
 
-The [pyactuator](https://github.com/nate-adkins/pyactuator) library was created to modularly interface with Myactuator brushless motors in Python over both CAN and UART interfaces.
+Our rover utilized brushless MyActuator motors for the 4 drivebase motors, and 5 degrees of freedom of the rover's custom robotic manipulator. The [pyactuator](https://github.com/nate-adkins/pyactuator) library was created to modularly interface with Myactuator brushless motors in Python over both CAN and UART interfaces.
 
-Our rover utilized brushless MyActuator motors for the 4 drivebase motors, and 5 degrees of freedom of the rover's custom robotic manipulator.
-
-Through my experience transitioning our URC team from ROS to ROS2 and my experience working with ROS2 on [Retailbot](/projects/retailbot), I recognized the value in decoupling our hardware libraries and drivers from ROS. Libraries developed for previous devices used by our team relied on different versions of ROS and would create technical debt in transitional periods. Foreseeing similar issues in the future, I created this library completely decoupled from ROS allowing for continued use through future ROS editions.
+Through my experience transitioning our URC team from ROS to ROS2 and my experience working with ROS2 on [Retailbot](/projects/retailbot), I recognized the value in decoupling our hardware libraries and drivers from ROS. Libraries developed for previous devices used by our team relied on different versions of ROS and would commonly create technical debt during transitional periods for our team. Foreseeing similar issues in the future, I created this library completely decoupled from ROS allowing for continued use through future ROS editions.
 
 ### Autonomy System
 
+During my time as the Algorithms lead on the URC team, I focused on utilizing LiDAR and SLAM implementations to mature and develop a previously underdeveloped autonomous navigation system on our rover.
+
 {% include gallery id="autonomy_stack"%}
-
-
-During my time as the Algorithms lead on the URC team, I focused on utilizing LiDAR and SLAM systems to mature and develop a previously underdeveloped autonomous navigation system on our rover.
 
 Our navigation system consisted of a global and SLAM-based local planning system. The global planning system utilized height map data from the [OpenTopography](https://opentopography.org/) project to create a slope map of the competition area in Utah. 
 
@@ -119,7 +114,7 @@ For the local planner, a collection of ROS packages in the [CMU Exploration](htt
 
 {% include gallery id="slam"%}
 
-Testing of the autonomy system included integrating and testing multiple LiDARs such as the Livox Mid-360 and the Unitree L1, integrating and testing SLAM implementations such as [FAST-LIO](https://github.com/hku-mars/FAST_LIO), and tuning the local planner performance, finding an optimal balance between intrepidity and reliability.
+Testing of the autonomy system included integrating and testing multiple LiDARs such as the Livox Mid-360 and the Unitree L1, integrating and testing SLAM implementations including [FAST-LIO](https://github.com/hku-mars/FAST_LIO), and tuning the local planner performance, finding an optimal balance between intrepidity and reliability.
 
 ### Custom YOLO Model
 
