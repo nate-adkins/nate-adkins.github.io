@@ -121,14 +121,6 @@ For the local planner, a collection of ROS packages in the [CMU Exploration](htt
 
 Testing of the autonomy system included integrating and testing multiple LiDARs such as the Livox Mid-360 and the Unitree L1, integrating and testing SLAM implementations such as [FAST-LIO](https://github.com/hku-mars/FAST_LIO), and tuning the local planner performance, finding an optimal balance between intrepidity and reliability.
 
-### Custom YOLO Model
-
-*updating soon*
-
-### React-based Rover GUI
-
-*updating soon*
-
 ## Successes
 
 - URC 2024 - Second Place
