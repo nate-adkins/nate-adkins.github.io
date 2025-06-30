@@ -62,12 +62,6 @@ plugins:
 
 # search: true
 
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-NL17V9WFNL"
-    anonymize_ip: false # default
-
 defaults:
   # _posts
   - scope:
