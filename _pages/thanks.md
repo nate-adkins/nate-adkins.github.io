@@ -15,7 +15,7 @@ thanks2:
     image_path: /assets/images/thanks/competition.jpg
 ---
 
-To Dr. Gu — thank you for years of mentorship, support, and for fostering an environment where curiosity, failure, and resilience are encouraged.
+To Dr. Gu — thank you for years of mentorship and support, and for fostering an environment where curiosity, failure, and resilience are encouraged.
 
 To Stephen and Gavin — thank you for introducing me to robotics and mentoring me as a new robotics engineer.
 
