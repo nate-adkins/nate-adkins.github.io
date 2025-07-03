@@ -27,6 +27,11 @@ toc_label: "Table of Contents"
 toc_icon: "none"
 ---
 
+## Highlights
+- Published an [IROS 2023 Paper](https://arxiv.org/abs/2306.12629) on swarm robotics
+- Created a custom library for Dynamixel servo motors
+- Interfaced with microcontrollers in C and Python for sensor integration in ROS
+
 ## Meet Loopy
 
 Loopy is a swarm of 36 individual servo motors circularly connected in a chain. The servo motors are each controlled by a single independent agent in the swarm who has only one degree of freedom. 

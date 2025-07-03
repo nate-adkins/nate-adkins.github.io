@@ -48,6 +48,12 @@ slam:
     image_path: /assets/images/urc/autonomy/evansdale.png
 ---
 
+## Highlights
+- Three years of leading development of rover autonomy systems
+- Integrated global and local path planning systems
+- Created and tested a UART and CAN motor library
+- Built a React-based robot control interface
+
 ## What is URC?
 
 The University Rover Challenge (URC) is an annual international robotics competition for university students held in Hanksville, Utah at the Mars Desert Research Station.

@@ -25,6 +25,10 @@ toc_label: "Table of Contents"
 toc_icon: "none"
 ---
 
+## Highlights
+- Integrated an autonomy system using LiDAR, IMU, depth cameras, and SLAM
+- Created a custom Python library for Roboteq motor controllers, enabling odometry and system modeling
+
 ## Meet Retailbot
 
 Retailbot is an indoor research robot focused on creating real-time human safety maps as part of an ongoing project at the WVU Interactive Robotics Laboratory. Retailbot is equipped with a Velodyne VLP-16 LiDAR, an Intel Realsense D455 depth camera, and a ZED 2i stereo camera.
@@ -42,8 +46,3 @@ To create a map of the environment with Retailbot, the onboard LiDAR and IMU wer
 {% include gallery id="software_gallery"%}
 
 My work on Retailbot included creating a Python library for interfacing with the Roboteq MDC2460 motor controllers, integrating all of the TOF and stereo sensors, and integrating the SLAM and autonomy stack.
-
-- Ubuntu Linux and ROS2
-- Integrated LiDAR, IMU, and SLAM on the robot
-- Integrated depth cameras for object detection and obstacle avoidance
-- Created custom Python library for interfacing with Roboteq motor controllers
