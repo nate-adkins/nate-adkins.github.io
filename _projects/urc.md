@@ -52,9 +52,6 @@ slam:
 - Second Place, 2024 University Rover Challenge
 - First Place, 2023 University Rover Challenge
 - Three years of leading development of rover autonomy systems
-- Integrated global and local path planning systems
-
-
 
 ## What is URC?
 
