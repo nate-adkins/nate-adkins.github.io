@@ -27,7 +27,7 @@ toc_icon: "none"
 
 ## Highlights
 - Integrated an autonomy system using LiDAR, IMU, depth cameras, and SLAM
-- Created a custom Python library for Roboteq motor controllers, enabling odometry and system modeling
+- Created a custom library for Roboteq motor controllers, enabling odometry and system modeling
 
 ## Meet Retailbot
 
@@ -41,7 +41,7 @@ to create a real-time walkability map of retail environments, characterizing the
 
 ## Technical Stack
 
-My work on Retailbot included creating a Python library for interfacing with the Roboteq MDC2460 motor controllers, integrating all of the TOF and stereo sensors, and integrating the SLAM and autonomy stack. For autonomous navigation, Nav2 was selected for its extensive feature set, configurability, and plugin support.
+My work on Retailbot included creating a library for interfacing with the Roboteq MDC2460 motor controllers, integrating all of the TOF and stereo sensors, and integrating the SLAM and autonomy stack. For autonomous navigation, Nav2 was selected for its extensive feature set, configurability, and plugin support.
 
 - Ubuntu Linux and ROS2
 - Integrated SLAM and autonomy system
