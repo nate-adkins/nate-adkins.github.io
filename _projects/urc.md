@@ -1,6 +1,6 @@
 ---
 title: "URC"
-excerpt: "The University Rover Challenge is an international collegiate-level robotics competition in a mock-Mars environment."
+excerpt: "The University Rover Challenge is an international robotics competition emulating a martian rover mission in a mock-Mars environment."
 
 header:
   teaser: /assets/images/urc/thumbnail.jpg
