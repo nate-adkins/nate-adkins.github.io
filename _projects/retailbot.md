@@ -27,7 +27,7 @@ toc_icon: "none"
 
 ## Highlights
 - Integrated an autonomy system using LiDAR, IMU, depth cameras, and SLAM
-- Created a custom library for Roboteq motor controllers, enabling odometry and system modeling
+- Created a custom library for Roboteq motor controllers, enabling odometry and slip modeling
 
 ## Meet Retailbot
 
