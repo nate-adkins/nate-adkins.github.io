@@ -28,7 +28,7 @@ toc_icon: "none"
 ---
 
 ## Highlights
-- Published an [IROS 2023 Paper](https://arxiv.org/abs/2306.12629) on swarm robotics
+- Co-authored an [IROS 2023 Paper](https://arxiv.org/abs/2306.12629) on swarm robotics
 - Created a custom library for Dynamixel servo motors
 - Interfaced with microcontrollers in C and Python for sensor integration in ROS
 
@@ -46,7 +46,7 @@ My work with Loopy included swarm robotics research, developing a synchronous in
 
 - Ubuntu Linux and ROS 
 - Microcontroller interfacing in C and Python
-- Created the first iteration of a custom Dynamixel servo motor library in Python
+- Created a custom library for Dynamixel servo motors
 
 ## Research
 

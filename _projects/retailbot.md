@@ -41,8 +41,11 @@ to create a real-time walkability map of retail environments, characterizing the
 
 ## Technical Stack
 
-To create a map of the environment with Retailbot, the onboard LiDAR and IMU were used alongside [slam toolbox](https://github.com/SteveMacenski/slam_toolbox). For autonomous navigation, [Nav2](https://docs.nav2.org/index.html) was utilized for its extensive feature set, configurability, and plugin support.
+My work on Retailbot included creating a Python library for interfacing with the Roboteq MDC2460 motor controllers, integrating all of the TOF and stereo sensors, and integrating the SLAM and autonomy stack. For autonomous navigation, Nav2 was selected for its extensive feature set, configurability, and plugin support.
+
+- Ubuntu Linux and ROS2
+- Integrated SLAM and autonomy system
+- Created a custom library for Roboteq MDC2460 motor controllers
+- Utilized the ZED SDK for object detection
 
 {% include gallery id="software_gallery"%}
-
-My work on Retailbot included creating a Python library for interfacing with the Roboteq MDC2460 motor controllers, integrating all of the TOF and stereo sensors, and integrating the SLAM and autonomy stack.

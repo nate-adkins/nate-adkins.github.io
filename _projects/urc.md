@@ -49,10 +49,12 @@ slam:
 ---
 
 ## Highlights
+- Second Place, 2024 University Rover Challenge
+- First Place, 2023 University Rover Challenge
 - Three years of leading development of rover autonomy systems
 - Integrated global and local path planning systems
-- Created and tested a UART and CAN motor library
-- Built a React-based robot control interface
+
+
 
 ## What is URC?
 
@@ -92,7 +94,7 @@ During this period, I led the team's transition from ROS (Noetic) to ROS2 (Humbl
 
 ### Algorithms Lead
 
-Identifying the need for our rover to match the capabilities found at the edge of robotics research, I founded the Algorithms group my Junior year and continued leading the group through my senior year. The Algorithms group was created to allow students on the team to focus on robotics algorithms including state estimation, path planning, autonomy systems, SLAM, and computer vision.
+Identifying the need for our rover to match the capabilities found at the forefront of robotics research, I founded the Algorithms group my Junior year and continued leading the group through my senior year. The Algorithms group was created to allow students on the team to focus on robotics algorithms including state estimation, path planning, autonomy systems, SLAM, and computer vision.
 
 During this time, I led the testing and integration of multiple generations of sensor suites including IMUs and LiDARs, drawing on my experience from the [Retailbot](/projects/retailbot) project. Additionally, I was responsible for the design and testing of our autonomy system including integrating SLAM implementations and computer vision models on the rover.
 
@@ -100,27 +102,27 @@ During this time, I led the testing and integration of multiple generations of s
 
 ### CAN and UART Motor Library
 
-Our rover utilized brushless MyActuator motors for the 4 drivebase motors, and 5 degrees of freedom of the rover's custom robotic manipulator. The [pyactuator](https://github.com/nate-adkins/pyactuator) library was created to modularly interface with Myactuator brushless motors in Python over both CAN and UART interfaces.
+Our rover utilized brushless MyActuator motors for the 4 drivebase motors, and 5 degrees of freedom of the rover's custom robotic manipulator. This library was created to modularly interface with Myactuator brushless motors in Python over both CAN and UART interfaces.
 
 Through my experience transitioning our URC team from ROS to ROS2 and my experience working with ROS2 on [Retailbot](/projects/retailbot), I recognized the value in decoupling our hardware libraries and drivers from ROS. Libraries developed for previous devices used by our team relied on different versions of ROS and would commonly create technical debt during transitional periods for our team. Foreseeing similar issues in the future, I created this library completely decoupled from ROS allowing for continued use through future ROS editions.
 
 ### Autonomy System
 
-During my time as the Algorithms lead on the URC team, I focused on utilizing LiDAR and SLAM implementations to mature and develop a previously underdeveloped autonomous navigation system on our rover.
+During my time as the Algorithms lead on the URC team, I focused on utilizing SLAM implementations to mature and develop a previously underdeveloped autonomous navigation system on our rover.
 
 {% include gallery id="autonomy_stack"%}
 
-Our navigation system consisted of a global and SLAM-based local planning system. The global planning system utilized height map data from the [OpenTopography](https://opentopography.org/) project to create a slope map of the competition area in Utah. 
+Our navigation system consisted of a global and SLAM-based local planning system. The global planning system utilized height map data from the OpenTopography project to create a slope map of the competition area in Utah. 
 
 {% include gallery id="autonomy_mission"%}
 
 The slope map served as a low-resolution cost map on which graph-based algorithms such as PRM, RRT*, or others would run. These algorithms created naive intermediary paths to and from goal points. To traverse to and from points in the global paths, a local planner was used.  
 
-For the local planner, a collection of ROS packages in the [CMU Exploration](https://www.cmu-exploration.com/) project were selected for their customizability, terrain analysis components, and overall simplicity. This local planning system used a motion-primitive-based approach, projecting pre-computed motion primitives into the mapped environment, checking for collisions. The local planner also utilized a terrain analysis component to identify and map the ground in the environment with a RANSAC-based approach.
+For the local planner, a collection of ROS packages in the CMU Exploration project were selected for their customizability, terrain analysis components, and overall simplicity. This local planning system used a motion-primitive-based approach, projecting pre-computed motion primitives into the mapped environment, checking for collisions. The local planner also utilized a terrain analysis component to identify and map the ground in the environment with a RANSAC-based approach.
 
 {% include gallery id="slam"%}
 
-Testing of the autonomy system included integrating and testing multiple LiDARs such as the Livox Mid-360 and the Unitree L1, integrating and testing SLAM implementations including [FAST-LIO](https://github.com/hku-mars/FAST_LIO), and tuning the local planner performance, finding an optimal balance between intrepidity and reliability.
+Testing of the autonomy system included integrating and testing multiple LiDARs such as the Livox Mid-360 and the Unitree L1, integrating and testing SLAM implementations including FAST-LIO, and tuning the local planner performance, finding an optimal balance between intrepidity and reliability.
 
 ## Successes
 

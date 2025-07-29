@@ -104,10 +104,15 @@ author:
       url: "/assets/files/Nathan_Adkins_2025_07.pdf"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:nathanpadkins@gmail.com"  
+      url: "mailto:nathanpadkins@gmail.com"
+    - label: "Let's Meet"
+      icon: "fas fa-fw fa-calendar"
+      url: "https://calendly.com/nathanadkins/meeting"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/nathan-adkins/"
+      url: "https://www.linkedin.com/in/nathan-adkins"
+
+      
 
 
 include: ["_pages"]
