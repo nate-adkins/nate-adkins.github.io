@@ -120,10 +120,3 @@ For the local planner, a collection of ROS packages in the CMU Exploration proje
 {% include gallery id="slam"%}
 
 Testing of the autonomy system included integrating and testing multiple LiDARs such as the Livox Mid-360 and the Unitree L1, integrating and testing SLAM implementations including FAST-LIO, and tuning the local planner performance, finding an optimal balance between intrepidity and reliability.
-
-## Successes
-
-- URC 2024 - Second Place
-- URC 2023 - First Place
-
-
