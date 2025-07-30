@@ -65,7 +65,7 @@ Unlike other URC teams, our team took a unique approach to the competition, crea
 
 ### Autonomy Mission
 
-The goal of the autonomy mission is for a team's rover to autonomously travel between GNSS locations, search and locate ArUco markers, and search and locate objects of interest in the environment. This mission is a test of a team's path planning system, computer vision models, and autonomy system design.
+The goal of the autonomy mission is for a team's rover to autonomously travel between GNSS locations, search for and locate ArUco markers, and search for and locate objects of interest in the environment. This mission is a test of a team's path planning system, computer vision models, and autonomy system design.
 
 ### Science Mission
 
@@ -77,7 +77,7 @@ The goal of the delivery mission is to transport various objects in the environm
 
 ### Servicing Mission
 
-The goal of the servicing mission is to utilize a manipulator to perform dextrous tasks such as using a joystick, opening drawers and placing objects in them, plugging in a USB drive, and typing on a keyboard. This mission is a test of the dexterity of the rover's manipulator.
+The goal of the servicing mission is to utilize a manipulator to perform dextrous tasks such as operating a joystick, opening drawers and placing objects in them, plugging in a USB drive, and typing on a keyboard. This mission is a test of the dexterity of the rover's manipulator.
 
 ## Leadership Roles
 
