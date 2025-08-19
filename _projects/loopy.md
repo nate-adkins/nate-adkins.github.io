@@ -28,7 +28,7 @@ toc_icon: "none"
 ---
 
 ## Highlights
-- Co-authored an [IROS 2023 Paper](https://arxiv.org/abs/2306.12629) on swarm robotics
+- Co-authored an [IROS 2023 Paper](https://ieeexplore.ieee.org/document/10342118) on swarm robotics
 - Created a custom library for Dynamixel servo motors
 - Interfaced with microcontrollers in C and Python for sensor integration in ROS
 
