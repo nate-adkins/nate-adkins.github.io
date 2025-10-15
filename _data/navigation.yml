@@ -1,0 +1,13 @@
+main:
+
+  - title: "About Me"
+    url: /about/
+
+  - title: "Projects"
+    url: /projects/
+
+  - title: "Resume"
+    url: /assets/files/Nathan_Adkins_2025_07.pdf
+
+  - title: "Thanks"
+    url: /thanks/
