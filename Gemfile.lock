@@ -47,6 +47,7 @@ GEM
     faraday-net_http (3.4.0)
       net-http (>= 0.5.0)
     ffi (1.17.2)
+    ffi (1.17.2-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     github-pages (232)
@@ -249,6 +250,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.17.2-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.17.2-x64-mingw-ucrt)
+      racc (~> 1.4)
     nokogiri (1.17.2-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.17.2-x86_64-linux)
@@ -290,6 +293,7 @@ GEM
 PLATFORMS
   arm64-darwin
   ruby
+  x64-mingw-ucrt
   x86_64-darwin
   x86_64-linux
 

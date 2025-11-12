@@ -14,9 +14,11 @@ about:
 
 {% include gallery id="about"%}
 
-I recently graduated from West Virginia University (WVU) with a degree in Computer Engineering, a minor in Computer Science, and a minor in Economics. During my time at WVU, I served as the Programming and Algorithms Team Lead for the [University Rover Challenge Team](/projects/urc) where I led software development and robot autonomy efforts for three consecutive years. In this role, I developed resilient robot autonomy systems, and contributed to multiple top placements in international, collegiate-level robotics competitions. 
+I graduated from West Virginia University (WVU) with a degree in Computer Engineering, a minor in Computer Science, and a minor in Economics. While at WVU, I focused my time on the University Rover Challenge (URC) Team and on robotics research projects. 
 
-My robotics experience also includes IROS publication of [swarm robotics research](/projects/loopy/), and [integrating a mapping and autonomy system](/projects/retailbot/) on an indoor ground-based robot as part of an NSF-funded research project.
+For three years, I led software development and robot autonomy on the [WVU URC Team](/projects/urc). In this role, I led the development of resilient autonomy systems that were instrumental to the team's multiple top placements in the international competition. 
+
+My time spent on research focused on two projects: [Loopy](/projects/loopy/) and [Retailbot](/projects/retailbot/). While working on Loopy, I co-authored an IROS 2023 conference paper on swarm robotics and robotic morphogenesis. While working on Retailbot, I integrated an indoor mapping and autonomy stack as part of the NSF-funded project.
 
 
 
