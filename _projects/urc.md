@@ -82,15 +82,15 @@ The goal of the servicing mission is to utilize a manipulator to perform dextrou
 
 My freshman year, I started on the URC team as a programmer where I gained initial experience with Linux and ROS. My sophomore year, I was selected as Programming Lead for the team, training and guiding over 20 programmers across each rover subsystem. 
 
-During this period, I led the team's transition from ROS (Noetic) to ROS2 (Humble). This transition included a refactoring of all of our actively used internal libraries for devices like motors, cameras, and our communication system.
+During this period, I led the team's transition from ROS (Noetic) to ROS2 (Humble). This transition involved a refactoring of all of our actively used internal libraries for devices like motors, cameras, and our communication system.
 
-Additionally, I worked on a library for interfacing with brushless MyActuator motors. Our rover utilized MyActuator motors for the 4 drivebase motors, and 5 degrees of freedom of the rover's custom robotic manipulator. This library was created to modularly interface with Myactuator brushless motors in Python over both CAN and UART interfaces and is entirely decoupled from ROS to ensure continued use through future ROS versions.
+Additionally, I worked on a library for interfacing with brushless MyActuator motors. Our rover utilized MyActuator motors for the 4 drivebase motors, and 5 degrees of freedom of the rover's custom manipulator. This library was created to modularly interface with MyActuator brushless motors in Python over both CAN and UART interfaces and is entirely decoupled from ROS to ensure continued use through future ROS versions.
 
 ### Algorithms Lead
 
-Identifying the need for our rover to match the capabilities found at the forefront of robotics research, I founded the Algorithms group my Junior year and continued leading the group through my senior year. The Algorithms group was created to allow students on the team to focus on robotics algorithms including state estimation, path planning, autonomy systems, SLAM, and computer vision.
+Identifying the need for our rover to match the capabilities found at the forefront of robotics research, I founded the Algorithms group my Junior year and continued leading the group through my senior year. The Algorithms group was created to allow students on the team to focus on robotics algorithms dealing with state estimation, path planning, autonomy systems, SLAM, and computer vision.
 
-During this time, I led the testing and integration of multiple iterations of sensor suites including IMUs and LiDARs, drawing on my experience from the [Retailbot](/projects/retailbot) project. Additionally, I was responsible for the design and testing of our autonomy system including integrating SLAM algorithms, training computer vision models, and testing our navigation system.
+During this time, I led the testing and integration of multiple iterations of IMUs and LiDARs, drawing on my experience from the [Retailbot](/projects/retailbot) project. Additionally, I was responsible for the design and testing of our autonomy system including integrating SLAM algorithms, training computer vision models, and testing our navigation system.
 
 ## Autonomy System Design
 
@@ -98,7 +98,7 @@ During my time as the Algorithms lead on the URC team, I focused on exploring SL
 
 {% include gallery id="autonomy_stack"%}
 
-The navigation system design included a global planner, and a SLAM-based local planner. The global planning system utilized height map data from the OpenTopography project to create a slope map of the competition area in Utah. 
+The navigation system design consisted of a global planner, and a SLAM-based local planner. The global planning system utilized height map data from the OpenTopography project to create a slope map of the competition area in Utah. 
 
 {% include gallery id="autonomy_mission"%}
 
@@ -108,4 +108,4 @@ For the local planner, a collection of ROS packages in the CMU Exploration proje
 
 {% include gallery id="slam"%}
 
-Testing of the autonomy system included integrating and testing multiple LiDARs including the Livox Mid-360 and the Unitree L1, integrating and testing SLAM implementations including FAST-LIO, and tuning the local planner performance.
+Testing of the autonomy system included integrating and testing multiple LiDARs, like the Livox Mid-360 and the Unitree L1, integrating and testing FAST-LIO, and tuning the local planner performance.
