@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "Nathan Adkins"  # This becomes your site's tab title and browser metadata
-masthead_title: "Nathan Adkins | Robotics & Software Development"
+masthead_title: "Nathan Adkins | Software Engineer & Robotics Researcher"
 email: nathanpadkins@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Nathan Adkins is a robotics engineer with a degree in Computer Engineering, and hands-on experience in robot autonomy, swarm robotics, and leading competitive rover teams. Explore his projects and robotics research here.
