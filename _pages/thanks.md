@@ -19,7 +19,7 @@ To Dr. Gu — thank you for years of mentorship and support, and for fostering a
 
 To Stephen and Gavin — thank you for introducing me to robotics and mentoring me as a new robotics engineer.
 
-To Kendra, Tyler, Riley, and Jalen — thank you for years of collaboration, for helping build a team of world-class engineers, for helping build a world-class robot, and for the rewarding experiences and memories.
+To all of my URC collaborators — thank you for helping build a team of world-class engineers, for helping build a world-class robot, and for the rewarding experiences and memories throughout.
 
 {% include gallery id="thanks"%}
 
